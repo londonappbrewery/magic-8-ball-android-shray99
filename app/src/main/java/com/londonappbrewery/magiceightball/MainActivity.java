@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Random random=new Random();
                 int num = random.nextInt(5);
                 imageView.setImageResource(Balls[num]);
+                
             }
         });
     }
